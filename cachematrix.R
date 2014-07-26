@@ -2,6 +2,8 @@
 ## functions do
 
 ## Write a short comment describing this function
+## this function does the caching of the matrix. 
+## A matrix is passed to this function and it returns a list
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -19,6 +21,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## this function determines if the inverse was cached before. 
+## if it was, then it returns the cached inverseMatrix, 
+## else it solves for one and stores it in cache.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
